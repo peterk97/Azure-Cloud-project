@@ -91,10 +91,10 @@ $sslcert    = 'ssl/DigiCertGlobalRootCA.crt.pem';
 // Configuration for database connection
 
 # REMOTE DECLARATION
-$host       = getenv('DB_HOST');
-$username   = getenv('DB_USERNAME');
-$password   = getenv('DB_PASSWORD');
-$db_name     = getenv('DB_DATABASE');
+$host       = getenv('webapptafe-server.mysql.database.azure.com');
+$username   = getenv('gtbywpqimm');
+$password   = getenv('6YNC4BZ87HA00SN5$');
+$db_name     = getenv('webapptafe-database');
 $sslcert    = 'ssl/DigiCertGlobalRootCA.crt.pem';
 #$sslcert   = getenv('DB_SSLCERT');
 
